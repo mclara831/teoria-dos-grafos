@@ -1,54 +1,50 @@
-from collections import deque
 import listaAdjacencias
 import matrizAdjacencias
 
-
-def dfs(grafo, u):
-    R = []
-    visitados = [False] * grafo.ordem()
-    dfsRecursivo(grafo, R, u, visitados)
-    return R
-
 # versao recursiva do DFS (Aula 07 - slide 7):
-def dfsRecursivo(grafo, R, u, visitados):
-    visitados[u] = True
-    R.append(u)
-    for (x, y) in grafo.vizinhos(u):
-        if not visitados[x]:
-            dfsRecursivo(grafo, R, x, visitados)
+def dfs(g, s):
+    r = []
+    visitado = [False] * g.numVertices
+    dfsRecursivo(g,r,visitado,s)
+    return r
+
+def dfsRecursivo(g, r, visitado, s):
+    visitado[s] = True
+    r.append(s)
+    for v,p in g.vizinhos(s):
+        if not visitado[v]:
+            dfsRecursivo(g,r,visitado,v)
 
 # versao iterativa do DFS (Aula 07 - slide 8):
-def dfsIterativo(grafo, u):
-    R = []
+def dfsIterativo(g, s, e):
+    r = []
     pilha = []
-    visitados = [False] * grafo.ordem()
-    pilha.append(u)
-    visitados[u] = True
-    while len(pilha) > 0:
-        s = pilha.pop()
-        R.append(s)
-        for (x, y) in grafo.vizinhos(s):
-            if not visitados[x]:
-                pilha.append(x)
-                visitados[x] = True
-    return R
-
+    visitado = [False] * g.numVertices
+    pilha.append(s)
+    visitado[s] = True
+    while pilha:
+        u = pilha.pop()
+        r.append(u)
+        if u == e:
+            return r
+        for v,p in g.vizinhos(u):
+            if not visitado[v]:
+                pilha.append(v)
+                visitado[v] = True
+    return r
 
 # BFS (Aula 07 - slide 15):
-def bfs(grafo, u):
-    R = []
+def bfs(g, s):
+    r = []
     fila = []
-    visitados = []
-    visitados = [False] * grafo.ordem()
-
-    fila.append(u)
-    visitados[u] = True
-
-    while len(fila) > 0:
-        s = fila.pop(0)
-        R.append(s)
-        for (x, y) in grafo.vizinhos(s):
-            if (visitados[x] == False):
-                fila.append(x)
-                visitados[x] = True
-    return R
+    visitado = [False] * g.numVertices
+    fila.append(s)
+    visitado[s] = True
+    while fila:
+        u = fila.pop(0)
+        r.append(u)
+        for v,p in g.vizinhos(u):
+            if not visitado[v]:
+                fila.append(v)
+                visitado[v] = True
+    return r
