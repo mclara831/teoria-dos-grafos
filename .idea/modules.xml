@@ -2,7 +2,11 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+<<<<<<< HEAD
       <module fileurl="file://$PROJECT_DIR$/.idea/tpAedsIII_p1.iml" filepath="$PROJECT_DIR$/.idea/tpAedsIII_p1.iml" />
+=======
+      <module fileurl="file://$PROJECT_DIR$/.idea/TeoriaDosGrafos-2024-2-main.iml" filepath="$PROJECT_DIR$/.idea/TeoriaDosGrafos-2024-2-main.iml" />
+>>>>>>> 5f7d104adec5ca5e735bc612bb458ffa34d3c9f8
     </modules>
   </component>
 </project>
