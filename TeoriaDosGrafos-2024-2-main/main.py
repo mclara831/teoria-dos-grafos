@@ -31,6 +31,21 @@ def leitura(nomeArquivo):
 
     return grafo
 
+def predecesores(inicio, fim, caminho_busca):
+    lista = []
+    s = inicio
+    t = fim
+    u = fim
+
+    lista.append(t)
+    while not u == s:
+        for (x, y) in caminho_busca:
+            if x == u:
+                u = y
+                lista.append(y)
+                break
+    return lista
+
 def le_labirinto(nomeArquivo):
     # abrindo arquivos e declarando variáveis da função
     arquivo = open(nomeArquivo)
@@ -89,18 +104,21 @@ def le_labirinto(nomeArquivo):
     # caminho_busca = busca.dfs(grafo_labirinto,S)
     # alg_busca = "DFS (recursivo)"
 
-    caminho_busca = busca.dfsIterativo(grafo_labirinto,S,E)
-    alg_busca = "DFS (iterativo)"
+    # caminho_busca = busca.dfsIterativo(grafo_labirinto,S,E)
+    # alg_busca = "DFS (iterativo)"
 
-    # caminho_busca = busca.bfs(grafo_labirinto,S)
-    # alg_busca = "BFS"
+    caminho_busca = busca.bfs(grafo_labirinto, S)
+    alg_busca = "BFS"
+    
+    lista = predecesores(S, E, caminho_busca)
 
     saida = []
-    while caminho_busca: #convertendo de índice de vértice para posição no labirinto
-        pos = caminho_busca.pop()
+    while lista: #convertendo de índice de vértice para posição no labirinto
+        pos = lista.pop()
         l = pos/num_colunas
         c = pos % num_colunas
         saida.insert(0,(math.floor(l),c))
+    saida.reverse()
     print("Busca finalizada\n")
     print("saída: ", saida)
 

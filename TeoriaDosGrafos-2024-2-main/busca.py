@@ -35,16 +35,23 @@ def dfsIterativo(g, s, e):
 
 # BFS (Aula 07 - slide 15):
 def bfs(g, s):
+    prev = [0] * g.numVertices
+    resultado = []
     r = []
     fila = []
     visitado = [False] * g.numVertices
     fila.append(s)
     visitado[s] = True
+    prev[s] = s
     while fila:
         u = fila.pop(0)
-        r.append(u)
+        r.append((u))
         for v,p in g.vizinhos(u):
             if not visitado[v]:
                 fila.append(v)
                 visitado[v] = True
-    return r
+                prev[v] = u
+    for u in r:
+        resultado.append((u, prev[u]))
+
+    return resultado
