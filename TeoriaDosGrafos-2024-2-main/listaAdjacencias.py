@@ -1,11 +1,15 @@
 # Representacao computacional de um grafo por meio de lista de adjacencias:
 class ListaAdjacencias:
+
     # inicializa o grafo:    
     def __init__(self, numVertices):
         self.numVertices = numVertices
         self.numArestas = 0
         self.lista = [[] for i in range(self.numVertices)]
-        
+        # self.lista = []
+        # for i in range(self.numVertices):
+        #     self.lista.append([])
+
     # retorna a ordem do grafo:
     def ordem(self):
         return self.numVertices
@@ -31,12 +35,17 @@ class ListaAdjacencias:
     def vizinhos(self, v):
         return self.lista[v]
 
-    # retorna uma lista de tuplas (vertice, peso)
-    # com os vizinhos de v:
+    # retorna o grau (saida) de um vertice:
     def grau(self, v):
         return len(self.lista[v])
 
     # printa o grafo no formato de lista de adjacencias:
     def printGrafo(self):
         for i in range(self.numVertices):
-            print(f"{i} -> {self.lista[i]}")
+            print(f"{i+1}: ", end=" ")
+            for (j, p) in self.lista[i]:
+                print(f"({j+1}, {p})", end=" ")
+            print(" ")
+
+        # for i in range(self.numVertices):
+          #  print(f"{i} -> {self.lista[i]}")
