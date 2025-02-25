@@ -2,36 +2,46 @@ import listaAdjacencias
 import matrizAdjacencias
 
 # versao recursiva do DFS (Aula 07 - slide 7):
-def dfs(g, s):
-    r = []
-    visitado = [False] * g.numVertices
-    dfsRecursivo(g,r,visitado,s)
-    return r
+def dfs(grafo, u):
+    R = []
+    visitados = [False] * grafo.ordem()
+    prev = [0] * grafo.numVertices
+    resultado = []
+    prev[u] = u
+    dfsRecursivo(grafo, R, u, visitados, prev)
+    for u in R:
+        resultado.append((u, prev[u]))
+    return resultado
 
-def dfsRecursivo(g, r, visitado, s):
-    visitado[s] = True
-    r.append(s)
-    for v,p in g.vizinhos(s):
-        if not visitado[v]:
-            dfsRecursivo(g,r,visitado,v)
+def dfsRecursivo(grafo, R, u, visitados, prev):
+    visitados[u] = True
+    R.append(u)
+    for (x, y) in grafo.vizinhos(u):
+        if not visitados[x]:
+            prev[x] = u
+            dfsRecursivo(grafo, R, x, visitados, prev)
 
 # versao iterativa do DFS (Aula 07 - slide 8):
-def dfsIterativo(g, s, e):
-    r = []
+def dfsIterativo(grafo, u):
+    prev = [0] * grafo.numVertices
+    resultado = []
+    R = []
     pilha = []
-    visitado = [False] * g.numVertices
-    pilha.append(s)
-    visitado[s] = True
-    while pilha:
-        u = pilha.pop()
-        r.append(u)
-        if u == e:
-            return r
-        for v,p in g.vizinhos(u):
-            if not visitado[v]:
-                pilha.append(v)
-                visitado[v] = True
-    return r
+    visitados = [False] * grafo.ordem()
+    pilha.append(u)
+    visitados[u] = True
+    prev[u] = u
+    while len(pilha) > 0:
+        s = pilha.pop()
+        R.append(s)
+        for (x, y) in grafo.vizinhos(s):
+            if not visitados[x]:
+                pilha.append(x)
+                visitados[x] = True
+                prev[x] = s
+    for u in R:
+        resultado.append((u, prev[u]))
+    return resultado
 
 # BFS (Aula 07 - slide 15):
 def bfs(g, s):

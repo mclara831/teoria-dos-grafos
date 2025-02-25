@@ -36,7 +36,7 @@ def dijkstra(g, s, e): #passa como parametro o grafo lido, o vertice de origem e
         fim = time.time() #termina o timer
         tempo_execucao = fim - inicio #faz o calculo do tempo de execucao
         
-        return caminhominimo, dist[e]
+    return caminhominimo, dist[e], tempo_execucao
     
 def bellmanford (g, s, e): 
     inicio = time.time() #começa o timer
