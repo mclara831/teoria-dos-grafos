@@ -2,3 +2,11 @@
 tempo de execuï¿½ï¿½o: 0.00 segundos
 busca usada: DFS (iterativo)
 
+2025-02-24 17:25:36,381 - INFO - mazes\maze30.txt
+tempo de execução: 1.13 segundos
+busca usada: DFS (iterativo)
+
+2025-02-24 17:28:14,287 - INFO - mazes\toy.txt
+tempo de execução: 0.00 segundos
+busca usada: DFS (iterativo)
+
