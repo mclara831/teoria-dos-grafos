@@ -4,6 +4,7 @@ import matrizAdjacencias
 import listaAdjacencias
 import info
 import busca
+import caminhoMinimo
 import sys
 import time
 import logging
@@ -130,7 +131,30 @@ def le_labirinto(nomeArquivo):
 
     return grafo_labirinto
 
+def le_grafo(nomeArquivo, origem, destino):
+    grafo = leitura(nomeArquivo)
+    
+    caminho_dijkstra, custo_dijkstra, tempo_dijsktra = caminhoMinimo.dijkstra(grafo, origem, destino)
+
+    caminho_bellmanford, custo_bellmanford, tempo_bellmanford = caminhoMinimo.bellmanford(grafo, origem, destino)
+    
+    logging.basicConfig(filename='Grafos.log', level=logging.DEBUG,
+                        format='%(asctime)s - %(levelname)s - %(message)s')
+    
+    logging.info(f'{nomeArquivo}\n'
+                f"Algoritmo de Dijkstra:\n"
+                f"Caminho mínimo: {caminho_dijkstra}\n"
+                f"Custo: {custo_dijkstra}\n"
+                f"Tempo de Execução: {tempo_dijsktra: .4f} segundos\n")
+    
+    logging.info(f'{nomeArquivo}\n'
+                f"Algoritmo de Bellman-Ford:\n"
+                f"Caminho mínimo: {caminho_bellmanford}\n"
+                f"Custo: {custo_bellmanford}\n"
+                f"Tempo de Execução: {tempo_bellmanford: .4f} segundos\n")
+
 if __name__ == "__main__":
+    
     if len(sys.argv) != 2:
         print("Numero invalido de parametros! Argumentos esperados: main.py grafo.txt")
         sys.exit(1)
