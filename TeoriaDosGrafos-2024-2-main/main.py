@@ -148,6 +148,8 @@ def le_grafo(nomeArquivo, origem, destino):
     caminho_dijkstra, custo_dijkstra, tempo_dijsktra = caminhoMinimo.dijkstra(grafo, origem, destino)
 
     caminho_bellmanford, custo_bellmanford, tempo_bellmanford = caminhoMinimo.bellmanford(grafo, origem, destino)
+
+    caminho_floydwarshall, custo_floydwarshall, tempo_floydwarshall = caminhoMinimo.floydwarshall(grafo, origem, destino)
     
     logging.basicConfig(filename='Grafos.log', level=logging.DEBUG,
                         format='%(asctime)s - %(levelname)s - %(message)s')
@@ -163,6 +165,12 @@ def le_grafo(nomeArquivo, origem, destino):
                 f"Caminho mínimo: {caminho_bellmanford}\n"
                 f"Custo: {custo_bellmanford}\n"
                 f"Tempo de Execução: {tempo_bellmanford: .4f} segundos\n")
+
+    logging.info(f'{nomeArquivo}\n'
+                f"Algoritmo de Floyd-Warshall:\n"
+                f"Caminho mínimo: {caminho_floydwarshall}\n"
+                f"Custo: {custo_floydwarshall}\n"
+                f"Tempo de Execução: {tempo_floydwarshall: .4f} segundos\n")
 
 if __name__ == "__main__":
     

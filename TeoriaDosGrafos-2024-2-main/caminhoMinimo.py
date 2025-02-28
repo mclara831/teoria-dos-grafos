@@ -71,3 +71,46 @@ def bellmanford (g, s, e):
     tempo_execucao = fim - inicio #faz o calculo do tempo de execucao
            
     return caminhominimo, dist[e], tempo_execucao
+
+def floydwarshall(g, s, e):
+
+    inicio = time.time()
+    numVertices = g.numVertices
+
+    dist = [[float('inf')] * numVertices for _ in range(numVertices)]
+    prev = [[None] * numVertices for _ in range(numVertices)]
+
+    for i in range(numVertices):
+        for j in range(numVertices):
+            if i == j:
+                dist[i][j] = 0
+                prev[i][j] = i
+            elif g.possuiAresta(i, j) != 0:
+                dist[i][j] = g.matriz[i][j]
+                prev[i][j] = i
+            else:
+                dist[i][j] = float('inf')
+                prev[i][j] = None
+
+    # Algoritmo principal de Floyd-Warshall
+    for k in range(numVertices):
+        for i in range(numVertices):
+            for j in range(numVertices):
+                if dist[i][k] != float('inf') and dist[k][j] != float('inf') and dist[i][j] > dist[i][k] + dist[k][j]:
+                    dist[i][j] = dist[i][k] + dist[k][j]
+                    prev[i][j] = prev[k][j]
+
+    # Reconstrução do caminho mínimo
+    caminho_minimo = []
+    atual = e
+
+    while atual is not None and atual != s:
+        caminho_minimo.insert(0, atual)  # Insere no início para manter a ordem correta
+        atual = prev[s][atual]  # Segue os predecessores corretamente
+    if atual == s:
+        caminho_minimo.insert(0, s)  # Adiciona o vértice de origem ao caminho
+
+    fim = time.time()  # Fim do time
+    tempo_execucao = fim - inicio
+
+    return caminho_minimo, dist[s][e], tempo_execucao

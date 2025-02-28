@@ -1,0 +1,444 @@
+2025-02-26 21:00:36,315 - INFO - grafos/toy.txt
+Algoritmo de Dijkstra:
+Caminho mínimo: [0, 2, 1, 3]
+Custo: 5
+Tempo de Execução:  0.0000 segundos
+
+2025-02-26 21:00:36,315 - INFO - grafos/toy.txt
+Algoritmo de Bellman-Ford:
+Caminho mínimo: [0, 2, 1, 3]
+Custo: 5
+Tempo de Execução:  0.0000 segundos
+
+2025-02-26 21:00:43,847 - INFO - grafos/toy.txt
+Algoritmo de Dijkstra:
+Caminho mínimo: [0, 2, 1, 3]
+Custo: 5
+Tempo de Execução:  0.0000 segundos
+
+2025-02-26 21:00:43,847 - INFO - grafos/toy.txt
+Algoritmo de Bellman-Ford:
+Caminho mínimo: [0, 2, 1, 3]
+Custo: 5
+Tempo de Execução:  0.0000 segundos
+
+2025-02-26 21:03:33,320 - INFO - grafos/toy.txt
+Algoritmo de Dijkstra:
+Caminho mínimo: [0, 2, 1, 3]
+Custo: 5
+Tempo de Execução:  0.0000 segundos
+
+2025-02-26 21:03:33,324 - INFO - grafos/toy.txt
+Algoritmo de Bellman-Ford:
+Caminho mínimo: [0, 2, 1, 3]
+Custo: 5
+Tempo de Execução:  0.0000 segundos
+
+2025-02-26 21:04:07,175 - INFO - grafos/toy.txt
+Algoritmo de Dijkstra:
+Caminho mínimo: [0, 2, 1, 3]
+Custo: 5
+Tempo de Execução:  0.0000 segundos
+
+2025-02-26 21:04:07,175 - INFO - grafos/toy.txt
+Algoritmo de Bellman-Ford:
+Caminho mínimo: [0, 2, 1, 3]
+Custo: 5
+Tempo de Execução:  0.0000 segundos
+
+2025-02-26 23:28:29,469 - INFO - grafos/toy.txt
+Algoritmo de Dijkstra:
+Caminho mínimo: [0, 2, 1, 3]
+Custo: 5
+Tempo de Execução:  0.0000 segundos
+
+2025-02-26 23:28:29,469 - INFO - grafos/toy.txt
+Algoritmo de Bellman-Ford:
+Caminho mínimo: [0, 2, 1, 3]
+Custo: 5
+Tempo de Execução:  0.0000 segundos
+
+2025-02-26 23:28:29,469 - INFO - grafos/toy.txt
+Algoritmo de Floyd-Warshall:
+Caminho mínimo: [0, 3]
+Custo: 0
+Tempo de Execução:  0.0000 segundos
+
+2025-02-26 23:30:58,671 - INFO - grafos/toy.txt
+Algoritmo de Dijkstra:
+Caminho mínimo: [0, 2, 1, 3]
+Custo: 5
+Tempo de Execução:  0.0000 segundos
+
+2025-02-26 23:30:58,671 - INFO - grafos/toy.txt
+Algoritmo de Bellman-Ford:
+Caminho mínimo: [0, 2, 1, 3]
+Custo: 5
+Tempo de Execução:  0.0000 segundos
+
+2025-02-26 23:30:58,671 - INFO - grafos/toy.txt
+Algoritmo de Floyd-Warshall:
+Caminho mínimo: [0, 3]
+Custo: [0, 0, 0, 0, 0]
+Tempo de Execução:  0.0000 segundos
+
+2025-02-27 11:33:45,553 - INFO - grafos/toy.txt
+Algoritmo de Dijkstra:
+Caminho mínimo: [0, 2, 1, 3]
+Custo: 5
+Tempo de Execução:  0.0000 segundos
+
+2025-02-27 11:33:45,553 - INFO - grafos/toy.txt
+Algoritmo de Bellman-Ford:
+Caminho mínimo: [0, 2, 1, 3]
+Custo: 5
+Tempo de Execução:  0.0000 segundos
+
+2025-02-27 11:33:45,553 - INFO - grafos/toy.txt
+Algoritmo de Floyd-Warshall:
+Caminho mínimo: [0, 3]
+Custo: 0
+Tempo de Execução:  0.0000 segundos
+
+2025-02-27 11:39:07,329 - INFO - grafos/toy.txt
+Algoritmo de Dijkstra:
+Caminho mínimo: [0, 2, 1, 3]
+Custo: 5
+Tempo de Execução:  0.0000 segundos
+
+2025-02-27 11:39:07,329 - INFO - grafos/toy.txt
+Algoritmo de Bellman-Ford:
+Caminho mínimo: [0, 2, 1, 3]
+Custo: 5
+Tempo de Execução:  0.0000 segundos
+
+2025-02-27 11:39:07,329 - INFO - grafos/toy.txt
+Algoritmo de Floyd-Warshall:
+Caminho mínimo: [0, 3]
+Custo: 0
+Tempo de Execução:  0.0000 segundos
+
+2025-02-27 11:42:55,869 - INFO - grafos/toy.txt
+Algoritmo de Dijkstra:
+Caminho mínimo: [0, 2, 1, 3]
+Custo: 5
+Tempo de Execução:  0.0000 segundos
+
+2025-02-27 11:42:55,869 - INFO - grafos/toy.txt
+Algoritmo de Bellman-Ford:
+Caminho mínimo: [0, 2, 1, 3]
+Custo: 5
+Tempo de Execução:  0.0000 segundos
+
+2025-02-27 11:42:55,869 - INFO - grafos/toy.txt
+Algoritmo de Floyd-Warshall:
+Caminho mínimo: [0, 3]
+Custo: 0
+Tempo de Execução:  0.0156 segundos
+
+2025-02-27 11:48:57,290 - INFO - grafos/toy.txt
+Algoritmo de Dijkstra:
+Caminho mínimo: [0, 2, 1, 3]
+Custo: 5
+Tempo de Execução:  0.0000 segundos
+
+2025-02-27 11:48:57,290 - INFO - grafos/toy.txt
+Algoritmo de Bellman-Ford:
+Caminho mínimo: [0, 2, 1, 3]
+Custo: 5
+Tempo de Execução:  0.0000 segundos
+
+2025-02-27 11:48:57,290 - INFO - grafos/toy.txt
+Algoritmo de Floyd-Warshall:
+Caminho mínimo: [0, 3]
+Custo: 0
+Tempo de Execução:  0.0000 segundos
+
+2025-02-27 12:25:37,889 - INFO - grafos/toy.txt
+Algoritmo de Dijkstra:
+Caminho mínimo: [0, 2, 1, 3]
+Custo: 5
+Tempo de Execução:  0.0000 segundos
+
+2025-02-27 12:25:37,889 - INFO - grafos/toy.txt
+Algoritmo de Bellman-Ford:
+Caminho mínimo: [0, 2, 1, 3]
+Custo: 5
+Tempo de Execução:  0.0000 segundos
+
+2025-02-27 12:25:37,889 - INFO - grafos/toy.txt
+Algoritmo de Floyd-Warshall:
+Caminho mínimo: [0, 3]
+Custo: 0
+Tempo de Execução:  0.0156 segundos
+
+2025-02-27 12:33:33,149 - INFO - grafos/toy.txt
+Algoritmo de Dijkstra:
+Caminho mínimo: [0, 2, 1, 3]
+Custo: 5
+Tempo de Execução:  0.0000 segundos
+
+2025-02-27 12:33:33,149 - INFO - grafos/toy.txt
+Algoritmo de Bellman-Ford:
+Caminho mínimo: [0, 2, 1, 3]
+Custo: 5
+Tempo de Execução:  0.0000 segundos
+
+2025-02-27 12:33:33,149 - INFO - grafos/toy.txt
+Algoritmo de Floyd-Warshall:
+Caminho mínimo: [0, 3]
+Custo: 0
+Tempo de Execução:  0.0000 segundos
+
+2025-02-27 12:35:28,755 - INFO - grafos/toy.txt
+Algoritmo de Dijkstra:
+Caminho mínimo: [0, 2, 1, 3]
+Custo: 5
+Tempo de Execução:  0.0000 segundos
+
+2025-02-27 12:35:28,755 - INFO - grafos/toy.txt
+Algoritmo de Bellman-Ford:
+Caminho mínimo: [0, 2, 1, 3]
+Custo: 5
+Tempo de Execução:  0.0000 segundos
+
+2025-02-27 12:35:28,755 - INFO - grafos/toy.txt
+Algoritmo de Floyd-Warshall:
+Caminho mínimo: [0, 3]
+Custo: 0
+Tempo de Execução:  0.0000 segundos
+
+2025-02-27 14:56:20,532 - INFO - grafos/toy.txt
+Algoritmo de Dijkstra:
+Caminho mínimo: [0, 2, 1, 3]
+Custo: 5
+Tempo de Execução:  0.0000 segundos
+
+2025-02-27 14:56:20,532 - INFO - grafos/toy.txt
+Algoritmo de Bellman-Ford:
+Caminho mínimo: [0, 2, 1, 3]
+Custo: 5
+Tempo de Execução:  0.0000 segundos
+
+2025-02-27 14:56:20,532 - INFO - grafos/toy.txt
+Algoritmo de Floyd-Warshall:
+Caminho mínimo: [0, 3]
+Custo: 0
+Tempo de Execução:  0.0155 segundos
+
+2025-02-27 15:00:55,885 - INFO - grafos/toy.txt
+Algoritmo de Dijkstra:
+Caminho mínimo: [0, 2, 1, 3]
+Custo: 5
+Tempo de Execução:  0.0000 segundos
+
+2025-02-27 15:00:55,885 - INFO - grafos/toy.txt
+Algoritmo de Bellman-Ford:
+Caminho mínimo: [0, 2, 1, 3]
+Custo: 5
+Tempo de Execução:  0.0000 segundos
+
+2025-02-27 15:00:55,885 - INFO - grafos/toy.txt
+Algoritmo de Floyd-Warshall:
+Caminho mínimo: [0, 3]
+Custo: 0
+Tempo de Execução:  0.0000 segundos
+
+2025-02-27 15:01:22,162 - INFO - grafos/toy.txt
+Algoritmo de Dijkstra:
+Caminho mínimo: [0, 2, 1, 3]
+Custo: 5
+Tempo de Execução:  0.0000 segundos
+
+2025-02-27 15:01:22,162 - INFO - grafos/toy.txt
+Algoritmo de Bellman-Ford:
+Caminho mínimo: [0, 2, 1, 3]
+Custo: 5
+Tempo de Execução:  0.0000 segundos
+
+2025-02-27 15:01:22,162 - INFO - grafos/toy.txt
+Algoritmo de Floyd-Warshall:
+Caminho mínimo: [0, 3]
+Custo: 0
+Tempo de Execução:  0.0150 segundos
+
+2025-02-27 15:53:39,239 - INFO - grafos/toy.txt
+Algoritmo de Dijkstra:
+Caminho mínimo: [0, 2, 1, 3]
+Custo: 5
+Tempo de Execução:  0.0000 segundos
+
+2025-02-27 15:53:39,239 - INFO - grafos/toy.txt
+Algoritmo de Bellman-Ford:
+Caminho mínimo: [0, 2, 1, 3]
+Custo: 5
+Tempo de Execução:  0.0000 segundos
+
+2025-02-27 15:53:39,239 - INFO - grafos/toy.txt
+Algoritmo de Floyd-Warshall:
+Caminho mínimo: [0, 3]
+Custo: 0
+Tempo de Execução:  0.0156 segundos
+
+2025-02-27 15:55:31,048 - INFO - grafos/toy.txt
+Algoritmo de Dijkstra:
+Caminho mínimo: [0, 2, 1, 3]
+Custo: 5
+Tempo de Execução:  0.0000 segundos
+
+2025-02-27 15:55:31,048 - INFO - grafos/toy.txt
+Algoritmo de Bellman-Ford:
+Caminho mínimo: [0, 2, 1, 3]
+Custo: 5
+Tempo de Execução:  0.0000 segundos
+
+2025-02-27 15:55:31,048 - INFO - grafos/toy.txt
+Algoritmo de Floyd-Warshall:
+Caminho mínimo: [0, 3]
+Custo: 0
+Tempo de Execução:  0.0000 segundos
+
+2025-02-27 15:56:23,800 - INFO - grafos/toy.txt
+Algoritmo de Dijkstra:
+Caminho mínimo: [0, 2, 1, 3]
+Custo: 5
+Tempo de Execução:  0.0000 segundos
+
+2025-02-27 15:56:23,800 - INFO - grafos/toy.txt
+Algoritmo de Bellman-Ford:
+Caminho mínimo: [0, 2, 1, 3]
+Custo: 5
+Tempo de Execução:  0.0000 segundos
+
+2025-02-27 15:56:23,800 - INFO - grafos/toy.txt
+Algoritmo de Floyd-Warshall:
+Caminho mínimo: [0, 3]
+Custo: 0
+Tempo de Execução:  0.0156 segundos
+
+2025-02-27 15:58:51,930 - INFO - grafos/toy.txt
+Algoritmo de Dijkstra:
+Caminho mínimo: [0, 2, 1, 3]
+Custo: 5
+Tempo de Execução:  0.0000 segundos
+
+2025-02-27 15:58:51,930 - INFO - grafos/toy.txt
+Algoritmo de Bellman-Ford:
+Caminho mínimo: [0, 2, 1, 3]
+Custo: 5
+Tempo de Execução:  0.0000 segundos
+
+2025-02-27 15:58:51,930 - INFO - grafos/toy.txt
+Algoritmo de Floyd-Warshall:
+Caminho mínimo: [0, 3]
+Custo: 0
+Tempo de Execução:  0.0156 segundos
+
+2025-02-27 16:07:54,743 - INFO - grafos/toy.txt
+Algoritmo de Dijkstra:
+Caminho mínimo: [0, 2, 1, 3]
+Custo: 5
+Tempo de Execução:  0.0000 segundos
+
+2025-02-27 16:07:54,743 - INFO - grafos/toy.txt
+Algoritmo de Bellman-Ford:
+Caminho mínimo: [0, 2, 1, 3]
+Custo: 5
+Tempo de Execução:  0.0000 segundos
+
+2025-02-27 16:07:54,743 - INFO - grafos/toy.txt
+Algoritmo de Floyd-Warshall:
+Caminho mínimo: [0, 1, 3]
+Custo: 2
+Tempo de Execução:  0.0156 segundos
+
+2025-02-27 16:20:06,498 - INFO - grafos/toy.txt
+Algoritmo de Dijkstra:
+Caminho mínimo: [0, 2, 1, 3]
+Custo: 5
+Tempo de Execução:  0.0000 segundos
+
+2025-02-27 16:20:06,498 - INFO - grafos/toy.txt
+Algoritmo de Bellman-Ford:
+Caminho mínimo: [0, 2, 1, 3]
+Custo: 5
+Tempo de Execução:  0.0000 segundos
+
+2025-02-27 16:20:06,498 - INFO - grafos/toy.txt
+Algoritmo de Floyd-Warshall:
+Caminho mínimo: [3, 1, 0]
+Custo: 2
+Tempo de Execução:  0.0000 segundos
+
+2025-02-27 16:35:45,018 - INFO - grafos/toy.txt
+Algoritmo de Dijkstra:
+Caminho mínimo: [0, 2, 1, 3]
+Custo: 5
+Tempo de Execução:  0.0000 segundos
+
+2025-02-27 16:35:45,018 - INFO - grafos/toy.txt
+Algoritmo de Bellman-Ford:
+Caminho mínimo: [0, 2, 1, 3]
+Custo: 5
+Tempo de Execução:  0.0000 segundos
+
+2025-02-27 16:35:45,018 - INFO - grafos/toy.txt
+Algoritmo de Floyd-Warshall:
+Caminho mínimo: [0, 1, 3]
+Custo: 2
+Tempo de Execução:  0.0156 segundos
+
+2025-02-27 16:47:18,966 - INFO - grafos/toy.txt
+Algoritmo de Dijkstra:
+Caminho mínimo: [0, 2, 1, 3]
+Custo: 5
+Tempo de Execução:  0.0000 segundos
+
+2025-02-27 16:47:18,966 - INFO - grafos/toy.txt
+Algoritmo de Bellman-Ford:
+Caminho mínimo: [0, 2, 1, 3]
+Custo: 5
+Tempo de Execução:  0.0000 segundos
+
+2025-02-27 16:47:18,966 - INFO - grafos/toy.txt
+Algoritmo de Floyd-Warshall:
+Caminho mínimo: [0, 2, 1, 3]
+Custo: 5
+Tempo de Execução:  0.0000 segundos
+
+2025-02-28 16:09:11,745 - INFO - grafos/toy.txt
+Algoritmo de Dijkstra:
+Caminho mínimo: [0, 2, 1, 3]
+Custo: 5
+Tempo de Execução:  0.0000 segundos
+
+2025-02-28 16:09:11,745 - INFO - grafos/toy.txt
+Algoritmo de Bellman-Ford:
+Caminho mínimo: [0, 2, 1, 3]
+Custo: 5
+Tempo de Execução:  0.0000 segundos
+
+2025-02-28 16:09:11,745 - INFO - grafos/toy.txt
+Algoritmo de Floyd-Warshall:
+Caminho mínimo: [0, 2, 1, 3]
+Custo: 5
+Tempo de Execução:  0.0157 segundos
+
+2025-02-28 16:09:34,710 - INFO - grafos/toy.txt
+Algoritmo de Dijkstra:
+Caminho mínimo: [0, 2, 1, 3]
+Custo: 5
+Tempo de Execução:  0.0000 segundos
+
+2025-02-28 16:09:34,710 - INFO - grafos/toy.txt
+Algoritmo de Bellman-Ford:
+Caminho mínimo: [0, 2, 1, 3]
+Custo: 5
+Tempo de Execução:  0.0000 segundos
+
+2025-02-28 16:09:34,710 - INFO - grafos/toy.txt
+Algoritmo de Floyd-Warshall:
+Caminho mínimo: [0, 2, 1, 3]
+Custo: 5
+Tempo de Execução:  0.0000 segundos
+
