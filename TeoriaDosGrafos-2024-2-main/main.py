@@ -1,10 +1,7 @@
 from contextlib import nullcontext
 
 import matrizAdjacencias
-import listaAdjacencias
-import info
 import busca
-import caminhoMinimo
 import sys
 import time
 import logging
@@ -143,54 +140,13 @@ def le_labirinto(nomeArquivo):
 
     return grafo_labirinto
 
-
-def le_grafo(nomeArquivo, origem, destino):
-    grafo = leitura(nomeArquivo)
-    
-    caminho_dijkstra, custo_dijkstra, tempo_dijkstra = caminhoMinimo.dijkstra(grafo, origem, destino)
-
-    caminho_bellmanford, custo_bellmanford, tempo_bellmanford = caminhoMinimo.bellmanford(grafo, origem, destino)
-
-    caminho_floydwarshall, custo_floydwarshall, tempo_floydwarshall = caminhoMinimo.floydwarshall(grafo, origem, destino)
-    
-    logging.basicConfig(filename='Grafos.log', level=logging.DEBUG,
-                        format='%(asctime)s - %(levelname)s - %(message)s')
-    
-    logging.info(f'{nomeArquivo}\n'
-                f"Algoritmo de Dijkstra:\n"
-                f"Caminho mínimo: {caminho_dijkstra}\n"
-                f"Custo: {custo_dijkstra}\n"
-                f"Tempo de Execução: {tempo_dijkstra: .4f} segundos\n")
-    
-    logging.info(f'{nomeArquivo}\n'
-                f"Algoritmo de Bellman-Ford:\n"
-                f"Caminho mínimo: {caminho_bellmanford}\n"
-                f"Custo: {custo_bellmanford}\n"
-                f"Tempo de Execução: {tempo_bellmanford: .4f} segundos\n")
-
-    logging.info(f'{nomeArquivo}\n'
-                f"Algoritmo de Floyd-Warshall:\n"
-                f"Caminho mínimo: {caminho_floydwarshall}\n"
-                f"Custo: {custo_floydwarshall}\n"
-                f"Tempo de Execução: {tempo_floydwarshall: .4f} segundos\n")
-
 if __name__ == "__main__":
     
-    # if len(sys.argv) != 6:
-    #     print("Numero invalido de parametros! Argumentos esperados: main.py grafo.txt")
-    #     sys.exit(1)
-
-    # # Ler todos os 5 arquivos de labirintos e acha a solução
-    # for i in range(1, 6):
-    #     var = sys.argv[i]
-    #     grafo = le_labirinto(sys.argv[i])
-
-    if len(sys.argv) != 4:
-        print("Numero invalido de parametros! Argumentos esperados: main.py grafo.txt")
+    if len(sys.argv) != 6:
+        print("Numero invalido de parametros! Argumentos esperados: main.py labirinto1.txt labirinto2.txt labirinto3.txt labirinto4.txt labirinto5.txt")
         sys.exit(1)
 
     # Ler todos os 5 arquivos de labirintos e acha a solução
-    grafo = sys.argv[1]
-    varOrigem = int(sys.argv[2])
-    varDestino = int(sys.argv[3])
-    grafo = le_grafo(grafo, varOrigem, varDestino)
+    for i in range(1, 6):
+        var = sys.argv[i]
+        grafo = le_labirinto(sys.argv[i])
