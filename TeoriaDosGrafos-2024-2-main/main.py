@@ -9,6 +9,7 @@ import sys
 import time
 import logging
 import math
+import threading
 
 # cria um grafo a partir de um arquivo:
 def leitura(nomeArquivo):
@@ -142,10 +143,11 @@ def le_labirinto(nomeArquivo):
 
     return grafo_labirinto
 
+
 def le_grafo(nomeArquivo, origem, destino):
     grafo = leitura(nomeArquivo)
     
-    caminho_dijkstra, custo_dijkstra, tempo_dijsktra = caminhoMinimo.dijkstra(grafo, origem, destino)
+    caminho_dijkstra, custo_dijkstra, tempo_dijkstra = caminhoMinimo.dijkstra(grafo, origem, destino)
 
     caminho_bellmanford, custo_bellmanford, tempo_bellmanford = caminhoMinimo.bellmanford(grafo, origem, destino)
 
@@ -158,7 +160,7 @@ def le_grafo(nomeArquivo, origem, destino):
                 f"Algoritmo de Dijkstra:\n"
                 f"Caminho mínimo: {caminho_dijkstra}\n"
                 f"Custo: {custo_dijkstra}\n"
-                f"Tempo de Execução: {tempo_dijsktra: .4f} segundos\n")
+                f"Tempo de Execução: {tempo_dijkstra: .4f} segundos\n")
     
     logging.info(f'{nomeArquivo}\n'
                 f"Algoritmo de Bellman-Ford:\n"

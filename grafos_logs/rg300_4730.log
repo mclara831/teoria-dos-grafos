@@ -1,0 +1,180 @@
+2025-03-06 15:27:41,574 - INFO - grafos\rg300_4730.txt
+Algoritmo de Dijkstra:
+Caminho mínimo: [0, 15, 149, 10]
+Custo: 12
+Tempo de Execução:  0.0033 segundos
+
+2025-03-06 15:27:41,575 - INFO - grafos\rg300_4730.txt
+Algoritmo de Bellman-Ford:
+Caminho mínimo: [0, 15, 149, 10]
+Custo: 12
+Tempo de Execução:  3.2022 segundos
+
+2025-03-06 15:27:41,575 - INFO - grafos\rg300_4730.txt
+Algoritmo de Floyd-Warshall:
+Caminho mínimo: [0, 15, 149, 10]
+Custo: 12
+Tempo de Execução:  23.8149 segundos
+
+2025-03-06 15:28:31,323 - INFO - grafos\rg300_4730.txt
+Algoritmo de Dijkstra:
+Caminho mínimo: [8, 105, 161, 100, 216, 7, 130]
+Custo: 15
+Tempo de Execução:  0.0090 segundos
+
+2025-03-06 15:28:31,325 - INFO - grafos\rg300_4730.txt
+Algoritmo de Bellman-Ford:
+Caminho mínimo: [8, 105, 161, 100, 216, 7, 130]
+Custo: 15
+Tempo de Execução:  3.5141 segundos
+
+2025-03-06 15:28:31,325 - INFO - grafos\rg300_4730.txt
+Algoritmo de Floyd-Warshall:
+Caminho mínimo: [8, 105, 161, 100, 216, 7, 130]
+Custo: 15
+Tempo de Execução:  29.4347 segundos
+
+2025-03-06 15:29:31,224 - INFO - grafos\rg300_4730.txt
+Algoritmo de Dijkstra:
+Caminho mínimo: [22, 102, 29, 67, 101, 299]
+Custo: 12
+Tempo de Execução:  0.0040 segundos
+
+2025-03-06 15:29:31,225 - INFO - grafos\rg300_4730.txt
+Algoritmo de Bellman-Ford:
+Caminho mínimo: [22, 102, 29, 67, 101, 299]
+Custo: 12
+Tempo de Execução:  3.0325 segundos
+
+2025-03-06 15:29:31,225 - INFO - grafos\rg300_4730.txt
+Algoritmo de Floyd-Warshall:
+Caminho mínimo: [22, 102, 29, 67, 101, 299]
+Custo: 12
+Tempo de Execução:  24.6214 segundos
+
+2025-03-06 15:30:06,998 - INFO - grafos\rg300_4730.txt
+Algoritmo de Dijkstra:
+Caminho mínimo: [2, 157, 52, 124, 153, 191]
+Custo: 12
+Tempo de Execução:  0.0062 segundos
+
+2025-03-06 15:30:06,999 - INFO - grafos\rg300_4730.txt
+Algoritmo de Bellman-Ford:
+Caminho mínimo: [2, 157, 52, 124, 153, 191]
+Custo: 12
+Tempo de Execução:  2.9108 segundos
+
+2025-03-06 15:30:06,999 - INFO - grafos\rg300_4730.txt
+Algoritmo de Floyd-Warshall:
+Caminho mínimo: [2, 157, 52, 124, 153, 191]
+Custo: 12
+Tempo de Execução:  24.6259 segundos
+
+2025-03-06 15:30:52,538 - INFO - grafos\rg300_4730.txt
+Algoritmo de Dijkstra:
+Caminho mínimo: [6, 83, 114, 231, 296, 131]
+Custo: 13
+Tempo de Execução:  0.0053 segundos
+
+2025-03-06 15:30:52,538 - INFO - grafos\rg300_4730.txt
+Algoritmo de Bellman-Ford:
+Caminho mínimo: [6, 83, 114, 231, 296, 131]
+Custo: 13
+Tempo de Execução:  2.9086 segundos
+
+2025-03-06 15:30:52,539 - INFO - grafos\rg300_4730.txt
+Algoritmo de Floyd-Warshall:
+Caminho mínimo: [6, 83, 114, 231, 296, 131]
+Custo: 13
+Tempo de Execução:  23.9516 segundos
+
+2025-03-06 15:31:39,824 - INFO - grafos\rg300_4730.txt
+Algoritmo de Dijkstra:
+Caminho mínimo: [10, 149, 15, 45, 11]
+Custo: 17
+Tempo de Execução:  0.0093 segundos
+
+2025-03-06 15:31:39,825 - INFO - grafos\rg300_4730.txt
+Algoritmo de Bellman-Ford:
+Caminho mínimo: [10, 149, 15, 45, 11]
+Custo: 17
+Tempo de Execução:  4.6975 segundos
+
+2025-03-06 15:31:39,825 - INFO - grafos\rg300_4730.txt
+Algoritmo de Floyd-Warshall:
+Caminho mínimo: [10, 149, 15, 45, 11]
+Custo: 17
+Tempo de Execução:  24.4874 segundos
+
+2025-03-06 15:33:29,974 - INFO - grafos\rg300_4730.txt
+Algoritmo de Dijkstra:
+Caminho mínimo: [80, 279, 226, 60, 88]
+Custo: 9
+Tempo de Execução:  0.0062 segundos
+
+2025-03-06 15:33:29,975 - INFO - grafos\rg300_4730.txt
+Algoritmo de Bellman-Ford:
+Caminho mínimo: [80, 108, 281, 88]
+Custo: 9
+Tempo de Execução:  3.0503 segundos
+
+2025-03-06 15:33:29,975 - INFO - grafos\rg300_4730.txt
+Algoritmo de Floyd-Warshall:
+Caminho mínimo: [80, 279, 226, 60, 88]
+Custo: 9
+Tempo de Execução:  25.5506 segundos
+
+2025-03-06 15:34:18,037 - INFO - grafos\rg300_4730.txt
+Algoritmo de Dijkstra:
+Caminho mínimo: [2, 157, 52, 252, 190]
+Custo: 14
+Tempo de Execução:  0.0103 segundos
+
+2025-03-06 15:34:18,038 - INFO - grafos\rg300_4730.txt
+Algoritmo de Bellman-Ford:
+Caminho mínimo: [2, 157, 52, 252, 190]
+Custo: 14
+Tempo de Execução:  3.3874 segundos
+
+2025-03-06 15:34:18,038 - INFO - grafos\rg300_4730.txt
+Algoritmo de Floyd-Warshall:
+Caminho mínimo: [2, 157, 52, 252, 190]
+Custo: 14
+Tempo de Execução:  31.5121 segundos
+
+2025-03-06 15:35:51,271 - INFO - grafos\rg300_4730.txt
+Algoritmo de Dijkstra:
+Caminho mínimo: [0, 15, 13, 21, 57, 1]
+Custo: 15
+Tempo de Execução:  0.0220 segundos
+
+2025-03-06 15:35:51,296 - INFO - grafos\rg300_4730.txt
+Algoritmo de Bellman-Ford:
+Caminho mínimo: [0, 15, 45, 144, 294, 1]
+Custo: 15
+Tempo de Execução:  3.4180 segundos
+
+2025-03-06 15:35:51,296 - INFO - grafos\rg300_4730.txt
+Algoritmo de Floyd-Warshall:
+Caminho mínimo: [0, 15, 13, 21, 57, 1]
+Custo: 15
+Tempo de Execução:  25.3655 segundos
+
+2025-03-06 15:37:09,775 - INFO - grafos\rg300_4730.txt
+Algoritmo de Dijkstra:
+Caminho mínimo: [0, 185, 18, 298, 2]
+Custo: 10
+Tempo de Execução:  0.0029 segundos
+
+2025-03-06 15:37:09,778 - INFO - grafos\rg300_4730.txt
+Algoritmo de Bellman-Ford:
+Caminho mínimo: [0, 185, 18, 298, 2]
+Custo: 10
+Tempo de Execução:  3.2350 segundos
+
+2025-03-06 15:37:09,779 - INFO - grafos\rg300_4730.txt
+Algoritmo de Floyd-Warshall:
+Caminho mínimo: [0, 185, 18, 298, 2]
+Custo: 10
+Tempo de Execução:  30.9352 segundos
+
