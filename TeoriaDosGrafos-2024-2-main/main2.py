@@ -31,11 +31,23 @@ def leitura(nomeArquivo):
 def le_grafo(nomeArquivo, origem, destino):
     grafo = leitura(nomeArquivo)
     
+    print("\nExecutando o algoritmo de Dijkstra...\n")
     caminho_dijkstra, custo_dijkstra, tempo_dijkstra = caminhoMinimo.dijkstra(grafo, origem, destino)
+    print("Algoritmo de Dijkstra finalizado\n")
+    
+    print("----------------------------------------------------------")
 
+    print("\nExecutando o algoritmo de Bellman-Ford...\n")
     caminho_bellmanford, custo_bellmanford, tempo_bellmanford = caminhoMinimo.bellmanford(grafo, origem, destino)
+    print("Algoritmo de Bellman-Ford finalizado\n")
+    
+    print("----------------------------------------------------------")
 
+    print("\nExecutando o algoritmo de Floyd-Warshall...\n")
     caminho_floydwarshall, custo_floydwarshall, tempo_floydwarshall = caminhoMinimo.floydwarshall(grafo, origem, destino)
+    print("Algoritmo de Floyd-Warshall finalizado\n")
+    print("----------------------------------------------------------\n\n")
+    print("Os três algoritmos de caminho minimo foram realizados para o grafo escolhido. :)")
     
     logging.basicConfig(filename='Grafos.log', level=logging.DEBUG,
                         format='%(asctime)s - %(levelname)s - %(message)s')
@@ -63,7 +75,6 @@ if __name__ == "__main__":
         print("Numero invalido de parametros! Argumentos esperados: main2.py grafo.txt vértice_origem vértice_destino")
         sys.exit(1)
 
-    # Ler todos os 5 arquivos de labirintos e acha a solução
     grafo = sys.argv[1]
     varOrigem = int(sys.argv[2])
     varDestino = int(sys.argv[3])
