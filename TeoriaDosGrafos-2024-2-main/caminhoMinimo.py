@@ -20,7 +20,7 @@ def dijkstra(g, s, e): #passa como parametro o grafo lido, o vertice de origem e
             continue
         for(v, peso) in g.vizinhos(u): #para cada vizinho do nó a ser explorado, calculamos uma nova distância (distância alternativa)
             novadist = dist[u] + peso
-            if novadist < dist[v]: #se a distância nova for melhor que a que já temos para o vizinho x, entramos na condição
+            if novadist < dist[v]: #se a distância nova for melhor que a que já temos para o vizinho "x", entramos na condição
                 dist[v] = novadist 
                 prev[v] = u #indicamos que o melhor caminho para o vizinho x é passar por u
                 heapq.heappush(filadeprioridade, (novadist, v)) #insere na fila de prioridade
@@ -48,7 +48,7 @@ def bellmanford (g, s, e):
     for _ in range(numVertices - 1):
         for u in range(numVertices):
             for (v, peso) in g.vizinhos(u): #percorre todas as arestas do nó "u"
-                if dist[u] + peso < dist[v]:
+                if dist[u] + peso < dist[v]: #se a distância nova for melhor que a que já temos para o vizinho "x", entramos na condição
                     dist[v] = dist[u] + peso
                     prev[v] = u
                     
@@ -57,7 +57,7 @@ def bellmanford (g, s, e):
         for(v, peso) in g.vizinhos(u):
             if dist[u] + peso < dist[v]:
                 print("Ciclo negativo encontrado")
-                return None, None, None
+                return None, None, None #retorna tudo "none" em todos os campos passados, como se não tivesse encontrado por conta do ciclo
         
     caminhominimo = []
     u = e #inicia no vertice de destino e voltamos de tras pra frente até a origem, moldando o caminho

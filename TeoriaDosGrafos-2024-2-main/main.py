@@ -137,8 +137,10 @@ def le_labirinto(nomeArquivo):
     saida = conversao_dos_vertices(lista, num_colunas)
     
     imprimir_caminho(saida, nomeArquivo, tempo_execucao)
-
+    
     return grafo_labirinto
+
+
 
 if __name__ == "__main__":
     
